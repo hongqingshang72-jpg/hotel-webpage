@@ -24,13 +24,13 @@ function showToast(message) {
   <SiteHeader @notify="showToast" />
 
   <main id="top">
-    <section class="hero" aria-label="栖岸酒店海景">
+    <section class="hero" aria-label="逻辑酒店海景">
       <img class="hero-img" src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2200&q=88" alt="湖畔山间的静谧度假风景" />
       <div class="hero-content">
         <div class="eyebrow">A SLOWER KIND OF LUXURY</div>
         <h1>把日子住成<br />风景</h1>
         <p>面朝山海，住进从容的每一刻。</p>
-        <a class="hero-link" href="#experience">探索栖岸 <b>→</b></a>
+        <a class="hero-link" href="#experience">探索逻辑 <b>→</b></a>
       </div>
       <div class="hero-count"><strong>01</strong><span>/</span>03</div>
     </section>

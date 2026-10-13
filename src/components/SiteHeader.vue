@@ -4,9 +4,9 @@ import { ref } from 'vue'
 defineEmits(['notify'])
 const menuOpen = ref(false)
 const links = [
-  { label: '住在栖岸', href: '#stay' },
+  { label: '住在逻辑', href: '#stay' },
   { label: '酒店体验', href: '#experience' },
-  { label: '栖岸手记', href: '#journal' },
+  { label: '逻辑手记', href: '#journal' },
   { label: '关于我们', href: '#footer' },
 ]
 
@@ -22,9 +22,9 @@ function scrollToBooking() {
 
 <template>
   <header class="nav">
-    <a class="brand" href="#top" aria-label="栖岸酒店首页" @click="closeMenu">
-      <span class="brand-mark">栖</span>
-      <span><span class="brand-name">栖岸酒店</span><span class="brand-en">SHORELINE RETREAT</span></span>
+    <a class="brand" href="#top" aria-label="逻辑酒店首页" @click="closeMenu">
+      <span class="brand-mark">逻</span>
+      <span><span class="brand-name">逻辑酒店</span><span class="brand-en">LOGIC HOTEL</span></span>
     </a>
     <nav class="nav-links" :class="{ 'nav-links-open': menuOpen }" aria-label="主导航">
       <a v-for="link in links" :key="link.href" :href="link.href" @click="closeMenu">{{ link.label }}</a>
